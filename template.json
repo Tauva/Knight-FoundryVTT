@@ -1,0 +1,52 @@
+{
+    "Actor": {
+        "type": ["character","npc","vehicules"],
+        "template":{
+            "common":{
+                "aspect":{
+                    "flesh":{
+                        "abilities": {
+                            "mvmt": {
+                                "Value":1,
+                                "min":1,
+                                "max": 10,
+                                "overdrive":0
+                            },
+                            "str": {
+                                "Value":1,
+                                "min":1,
+                                "max": 10,
+                                "overdrive":0
+                            },
+                            "stam:":{
+                                "Value":1,
+                                "min":1,
+                                "max": 10,
+                                "overdrive":0
+                            }
+                        },
+                        "value":2,
+                        "min":2,
+                        "max": 10
+                    },
+                    "beast": {
+                        "abilities":{
+                            "aggressiveness":{
+                                
+                            }
+                        }
+                    },
+                    "machine":{
+
+                    },
+                    "lady": {
+
+                    },
+                    "mask": {
+
+                    }
+                }
+            }
+        }
+    }
+}

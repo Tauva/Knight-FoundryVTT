@@ -1,0 +1,73 @@
+{
+    "name": "Knight",
+    "title":"Knight Tabletop RPG",
+    "description": "A foundry Game System For Knight RPG",
+    "version": 0.1,
+    "author": "tauva",
+    "script": [],
+    "esmodule": ["knight.js"],
+    "style": ["knight.css"],
+    "pack": [
+        {
+            "name": "Meta-Armor",
+            "label": "List of Meta-Armor",
+            "system": "Knight",
+            "path": "./pack/armor.db",
+            "Entity": "Item"
+        },
+        {
+            "name": "weapon",
+            "label": "list of weapon",
+            "system": "Knight",
+            "path": "./pack/weapon.db",
+            "Entity":"Item"
+        },
+        {
+            "name": "Amelioration",
+            "label": "List of Amelioration",
+            "system": "Knight",
+            "path": "./pack/amelioration.db",
+            "Entity":"Item"
+        },
+        {
+            "name":"modules",
+            "label":"List of Modules",
+            "system": "Knight",
+            "path":"./pack/modules.db",
+            "Entity":"Item"
+        },
+        {
+            "name" :"Vehicules",
+            "label":"List of Vehicules",
+            "system":"Knight",
+            "path":"./pack/vehicules.db",
+            "Entity":"Item"
+        },
+        {
+            "name":"Human",
+            "label": "List of Human NPC",
+            "system":"Knight",
+            "path":"./pack/human.db",
+            "Entity":"Actor"
+        },
+        {
+            "name":"Monster",
+            "label":"List Of Monster",
+            "system":"Knight",
+            "path":"./pack/monster.db",
+            "Entity":"Actor"
+        }
+
+    ],
+    "socket": true,
+    "initiative": "3d6+@aspect.mask.value",
+    "gridDistance":1,
+    "gridUnits":"m",
+    "primaryTokenAttribute": "attributes.armor",
+    "secondaryTokenAttribute": "attributes.hp",
+    "minimumCoreVersion": "0.5.2",
+    "compatibleCoreVersion": "0.5.5",
+    "url": "https://github.com/Tauva/Knight-FoundryVTT",
+    "manifest": "https://github.com/Tauva/Knight-FoundryVTT.git/system.json",
+    "download": "https://github.com/Tauva/Knight-FoundryVTT/archive/refs/heads/main.zip"
+}
