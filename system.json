@@ -41,7 +41,7 @@
             "label":"List of Vehicules",
             "system":"Knight",
             "path":"./pack/vehicules.db",
-            "Entity":"Item"
+            "Entity":"Actor"
         },
         {
             "name":"Human",

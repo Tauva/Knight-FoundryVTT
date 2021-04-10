@@ -5,48 +5,242 @@
             "common":{
                 "aspect":{
                     "flesh":{
-                        "abilities": {
-                            "mvmt": {
-                                "Value":1,
-                                "min":1,
-                                "max": 10,
-                                "overdrive":0
-                            },
-                            "str": {
-                                "Value":1,
-                                "min":1,
-                                "max": 10,
-                                "overdrive":0
-                            },
-                            "stam:":{
-                                "Value":1,
-                                "min":1,
-                                "max": 10,
-                                "overdrive":0
-                            }
-                        },
                         "value":2,
                         "min":2,
                         "max": 10
                     },
                     "beast": {
-                        "abilities":{
-                            "aggressiveness":{
-                                
-                            }
-                        }
+                        "value":2,
+                        "min":2,
+                        "max":10
                     },
                     "machine":{
-
+                        "value":2,
+                        "min":2,
+                        "max":10
                     },
                     "lady": {
-
+                        "value":2,
+                        "min":2,
+                        "max":10
                     },
                     "mask": {
-
+                        "value":2,
+                        "min":2,
+                        "max":10
                     }
+                },
+                "attributes": {
+                    "ap": {
+                        "min":0,
+                        "value":10,
+                        "tooltip":[]
+                    },
+                    "ep": {
+                        "min":0,
+                        "value":10,
+                        "tooltip":[]
+                    },
+                    "ff": {
+                        "value":10,
+                        "tooltip":[]
+                    },
+                    "hp": {
+                        "min":0,
+                        "value":10,
+                        "tooltip":[]
+                    },
+                    "def":{
+                        "min":0,
+                        "value":0,
+                        "tooltip":[]
+                    },
+                    "reac":{
+                        "min":0,
+                        "value":0,
+                        "tooltip":[]
+                    },
+                    "init": {
+                        "min":0,
+                        "value":0,
+                        "tooltip":[]
+                    }
+                },
+                "detail":{
+                },
+                "overdrive": {
+                },
+                "Capacity":{
+                    "name": "",
+                    "description": ""
                 }
             }
+        },
+        "character": {
+            "template": ["common"],
+            "aspect":{
+                "abilities": {
+                    "mvmt": {
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "str": {
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "stam:":{
+                        "Value":1,
+                        "min":1,
+                        "max": 10,
+                        "overdrive":0
+                    }
+                },
+
+
+                "abilities":{
+                    "aggressiveness":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "fight":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "instinct": {
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    }
+                },
+
+                "abilities":{
+                    "shoot":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "knowledge":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "technic": {
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    }
+                },
+
+                "abilities":{
+                    "Aura":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "Speak":{
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    },
+                    "Cold-blood": {
+                        "Value":1,
+                        "min":1,
+                        "max": 20,
+                        "overdrive":0
+                    }
+                },
+
+                "abilities":{
+                    "stealth":{
+                        "Value":1,
+                        "min":1,
+                        "max": 10,
+                        "overdrive":0
+                    },
+                    "dex":{
+                        "Value":1,
+                        "min":1,
+                        "max": 10,
+                        "overdrive":0
+                    },
+                    "per": {
+                        "Value":1,
+                        "min":1,
+                        "max": 10,
+                        "overdrive":0
+                    }
+                },
+            },
+            "atttribute": {
+                "gap": {
+                    "min":0,
+                    "value": 5,
+                    "max":5,
+                    "tooltip":[]
+                },
+                "gff":{
+                    "value" : 5,
+                    "tooltip":[]
+                },
+                "pg": {
+                    "value":0,
+                    "max":60,
+                    "tooltip":[]
+                },
+                "xp": {
+                    "value":0,
+                    "max":10,
+                    "tooltip":[]
+                },
+                "herop": {
+                    "value":0,
+                    "max": 6,
+                    "tooltip":[]
+                },
+                "cp": {
+                    "value":0,
+                    "tooltip":[]
+                },
+                "esp": {
+                    "value":0,
+                    "max":60,
+                    "tooltip":[]
+                }
+            },
+            "trait":{
+                "name":"",
+                "pseudo":"",
+                "archetype":"",
+                "achivement":"",
+                "Blazon":"",
+                "section":"",
+                "adventage":"",
+                "disadventage":"",
+                "Major_Motivation":"",
+                "Minor_Motivation":""
+            }
+        },
+        "npc": {
+            "template":["common"],
+            "attribute":{
+                "cohesion": 0,
+                "flooding": 0
+            }
         }
+        
     }
 }
